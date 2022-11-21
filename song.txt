@@ -1,4 +1,11 @@
 asdf asdf
 aedr wsed
 sdf sdfs
-
+<<<<<<< HEAD
+sd
+=======
+sdfs ghjg
+qwe ad
+jkgh
+erte ert
+>>>>>>> 2f0684bf1ab33b89c623da4b77d826c50ba7087f
