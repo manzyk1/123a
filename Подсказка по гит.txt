@@ -1,0 +1,18 @@
+pritianuti s serviera
+git pull
+----------------------
+ostavit commit
+git commit -m "komientari"
+-------------------------
+poslat na servier
+git push
+--------------------------
+dla vhoda v papku
+cd /d/for_git/proba/
+---------------------------
+vyhod iz papki
+cd -
+----------------------------
+provierka statusa
+git status
+---------------------------
