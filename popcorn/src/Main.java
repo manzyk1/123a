@@ -5,6 +5,7 @@ public class Main {
 
         допМетод(ИмяМассива2);
         System.out.println("dop provierka");
+        System.out.println("nu posliedniaja provierka");
 
 
     }
