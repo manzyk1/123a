@@ -1,6 +1,14 @@
-asdf asdf
-aedr wsed
-sdf sdfs
-ert
-erter ert
-gmhgh
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int x = input.nextInt();
+        String arg = input.next();
+        int y = input.nextInt();
+        if(arg=="+"){
+            System.out.println(x+y);
+        }else if(arg=="-"){
+            System.out.println(x-y);
+        }
+    }
+}
