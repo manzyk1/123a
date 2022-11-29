@@ -1,0 +1,16 @@
+numbers - название масва; 
+numbersCopy - название масива;
+1) Arrays.sort(numbers); сортировка от меньшего к большему;
+
+2)Arrays.toString(numbers) преобразовывает масив в строку,
+ используется при выводе масва на экран;
+
+3)int [] numbersCopy = Arrays.copyOf(numbers, numbers.length)опирует из масива в масив
+ int[] numbersCopy = numbers.clone() также можно использовать ;
+
+4)int [] numbersCopy = Arrays.copyOfRange(numbers, 2,6); таким образом мы указываем 
+с какой по какую ячейку мы будем копировать;
+
+5)System.out.println(Arrays.equals(numbers, numbers2)) здесь мы сравниваем 2 массива
+ между собойна выходе получаем false or true;
+
