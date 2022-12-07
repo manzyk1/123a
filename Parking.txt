@@ -1,0 +1,48 @@
+import java.util.Arrays;
+
+public class Parking1 {
+    public static void main(String[] args) {
+        int[] samochud = {1, 2, 3, 4, 6, 2, 3, 11, 7,5,6, 18, 19, 17, 20, 1, 1, 2, 1, 2, 1, 2, 1,1,1,1,1};
+        int[] parking1 = new int[10];
+        int[] parking2 = new int[10];
+        int[] parking3 = new int[10];
+        int x = 0;
+        int y = 0;
+        int z = 0;
+        for (int i = 0; i < samochud.length; i++) {
+            if (2 >= samochud[i]) {
+                if (x >9) {
+                    if(y<=9){
+                    parking2[y] = samochud[i];
+                    System.out.println("na 3 pęntrze miejsca niema,proszę jechać na 2 pęntro");
+                    y++;}
+                }if(x<=9){
+                parking3[x] = samochud[i];
+                System.out.println("Proszę wjechać na 3 pęntro");
+                }
+                x++;
+            }
+            if (2 < samochud[i] && samochud[i] <= 15) {
+                if(y>9){
+                    parking1[z]= samochud[i];
+                    z++;
+                }
+                if(y<=9){
+                parking2[y] = samochud[i];
+
+                System.out.println("Proszę wjechać na 2 pęntro");
+                }
+                y++;
+            }
+            if (15 < samochud[i]) {
+                parking1[z] = samochud[i];
+                System.out.println("Proszę wjechać na 2 pęntro");
+                z++;
+            }
+
+        }
+        System.out.println(Arrays.toString(parking1));
+        System.out.println(Arrays.toString(parking2));
+        System.out.println(Arrays.toString(parking3));
+    }
+}
