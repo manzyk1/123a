@@ -5,7 +5,7 @@ numbersCopy - название масива;
 2)Arrays.toString(numbers) преобразовывает масив в строку,
  используется при выводе масва на экран;
 
-3)int [] numbersCopy = Arrays.copyOf(numbers, numbers.length)опирует из масива в масив
+3)int [] numbersCopy = Arrays.copyOf(numbers, numbers.length)копирует из масива в масив
  int[] numbersCopy = numbers.clone() также можно использовать ;
 
 4)int [] numbersCopy = Arrays.copyOfRange(numbers, 2,6); таким образом мы указываем 
